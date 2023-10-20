@@ -1,6 +1,5 @@
 
 https://mrmaheshrajput.medium.com/how-to-build-an-intelligent-qa-chatbot-on-your-data-with-llm-or-chatgpt-d0009d256dce
 https://medium.com/@zaiinn440/attention-is-all-you-need-the-core-idea-of-the-transformer-bbfa9a749937
-https://youtu.be/26ex_6_Ffw0?si=raC-7kVo58fgN81E
 https://github.com/unvercanunlu/cifar10-image-classification-theano
 https://github.com/AkashHiremath856/Teachable_Machine 

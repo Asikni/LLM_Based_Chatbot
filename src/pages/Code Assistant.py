@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 from langchain.vectorstores import FAISS
-from modules.layout import Layout
+from modules.Page_layout import Layout
 from modules.utils import Utilities
 from modules.sidebar import Sidebar
 from langchain.chains.summarize import load_summarize_chain

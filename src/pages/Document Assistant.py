@@ -3,8 +3,8 @@ import streamlit as st
 from io import StringIO
 import re
 import sys
-from modules.history import ChatHistory
-from modules.layout import Layout
+from modules.Chat_history import ChatHistory
+from modules.Page_layout import Layout
 from modules.utils import Utilities
 from modules.sidebar import Sidebar
 
@@ -18,8 +18,8 @@ def reload_module(module_name):
 
 #The reload_module() function takes a module name as its argument and imports the module again. This effectively 
 # resets the module to its original state, including any changes that we have made to it.
-history_module = reload_module('modules.history')
-layout_module = reload_module('modules.layout')
+history_module = reload_module('modules.Chat_history')
+layout_module = reload_module('modules.Page_layout')
 utils_module = reload_module('modules.utils')
 sidebar_module = reload_module('modules.sidebar')
 

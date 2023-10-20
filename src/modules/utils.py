@@ -3,8 +3,8 @@ import pandas as pd
 import streamlit as st
 import pdfplumber
 
-from modules.chatbot import Chatbot
-from modules.embedder import Embedder
+from modules.chatbot_main import Chatbot
+from modules.doc_embeddings import Embedder
 
 class Utilities:
 

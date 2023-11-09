@@ -65,8 +65,8 @@ class Utilities:
                 file_container.write(content)
             
             def get_file_extension(uploaded_file):
-                return os.path.splitext(uploaded_file)[1].lower()  #et the file extension of the uploaded file and return it in lowercase.
-                #IS THIS NECESSARY?????
+                return os.path.splitext(uploaded_file)[1].lower()  #get the file extension of the uploaded file and return it in lowercase.
+                
             
             #file_extension = get_file_extension(uploaded_file.name)
 

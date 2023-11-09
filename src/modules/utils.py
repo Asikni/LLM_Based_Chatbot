@@ -81,7 +81,7 @@ class Utilities:
         else:
             st.session_state["reset_chat"] = True
 
-        #print(uploaded_file)
+      
         return uploaded_file
 
     @staticmethod

@@ -22,7 +22,7 @@ class Sidebar:
 
     @staticmethod
     def about():
-        about = st.expander("About this chatbot")   #change this
+        about = st.expander("About this chatbot")   
         
         sections = [
             "This is a large language model based medical chatbot.The general flow for this goes, the question comes in, we look up for the relevant documents, we then pass those splits along with a system prompt and the human question to the language model and get the answer. By default, we just pass all the chunks into the same context window, into the same call of the language model."
